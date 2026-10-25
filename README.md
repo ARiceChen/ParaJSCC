@@ -19,7 +19,7 @@ Set the dataset path to the processed LMT-108 directory with `--dataset`. The de
 ## Training
 
 Each selected sample is optimized independently. The defaults are 2,000 updates per sample, all
-three modalities, 2:1 code-width compression, and SNR 10 dB. CUDA Graphs can accelerate the fixed
+three modalities, and SNR 10 dB. CUDA Graphs can accelerate the fixed
 training request.
 
 ```bash
