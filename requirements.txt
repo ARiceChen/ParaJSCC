@@ -1,0 +1,8 @@
+einops
+numpy
+Pillow
+scipy
+soundfile
+tensorboard
+torch>=2.0
+torchvision
