@@ -1,7 +1,7 @@
  <div align="center">
 
-# ParaJSCC
-### A Parameterized Framework for Reusable Multimodal Joint Source-Channel Coding
+
+### ParaJSCC: A Parameterized Framework for Reusable Multimodal Joint Source-Channel Coding
 
 **ACM MM 2026 · Oral Presentation**
 
