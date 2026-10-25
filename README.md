@@ -3,7 +3,7 @@
 # ParaJSCC
 ### A Parameterized Framework for Reusable Multimodal Joint Source-Channel Coding
 
-**ACM Multimedia 2026 (ACM MM 2026) · Oral Presentation**
+**ACM MM 2026 · Oral Presentation**
 
 [![Conference](https://img.shields.io/badge/ACM%20MM-2026-blue.svg)](https://2026.acmmm.org/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2608.15066)
