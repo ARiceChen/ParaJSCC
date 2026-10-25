@@ -1,7 +1,6 @@
 # ParaJSCC
 
-Multimodal joint source-channel coding for the LMT-108 surface-material dataset. Each sample is
-fitted independently with its own network weights and progressive code tensors.
+ParaJSCC: A Parameterized Framework for Reusable Multimodal Joint Source-Channel Coding (ACM MM'2026)
 
 ## Requirements
 
@@ -15,8 +14,7 @@ pip install -r requirements.txt
 ## Dataset
 
 Set the dataset path to the processed LMT-108 directory with `--dataset`. The default path is
-`./data/LMT_108`. The loader uses the dataset Training and Testing
-directories and creates a seeded, material-stratified 70:30 training and validation split.
+`./data/LMT_108`. 
 
 ## Training
 
@@ -30,6 +28,4 @@ python train.py --dataset /path/to/LMT_108 \
   --total_steps 2000 --train_progressive_prob 0 --cuda_graph
 ```
 
-Use `--channel_compression 1` to disable code-width compression. Use `--channel_compression 2` to
-halve the number of transmitted complex symbols. Training checkpoints and parameter packages are
-saved under the selected run directory.
+
